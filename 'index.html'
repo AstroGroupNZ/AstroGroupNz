@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTRO GROUP NZ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* light blue background */
+        }
+        header {
+            background-color: #01579b; /* dark blue */
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #01579b; /* dark blue */
+        }
+        .bio, .services, .contact {
+            margin-bottom: 2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #01579b; /* dark blue */
+            color: #fff;
+        }
+        a {
+            color: #01579b; /* dark blue */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ASTRO GROUP NZ</h1>
+        <p>Specializing in painting, flooring, fencing, decking, lawn maintenance, landscaping, small to medium renovation, property maintenance</p>
+    </header>
+    <div class="container">
+        <section class="bio">
+            <h2>About Us</h2>
+            <p>With over 10 years of experience in the property maintenance industry, we have developed a keen eye for detail and a strong commitment to quality. Our expertise spans various areas including painting, flooring, fencing, decking, lawn maintenance, landscaping, small to medium renovation, and general property maintenance. We pride ourselves on providing reliable and efficient services to ensure properties are always in top condition.</p>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Painting</li>
+                <li>Flooring</li>
+                <li>Fencing</li>
+                <li>Decking</li>
+                <li>Lawn Maintenance</li>
+                <li>Landscaping</li>
+                <li>Small to Medium Renovations</li>
+                <li>Property Maintenance</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to request a quote, please feel free to reach out to us.</p>
+            <p>Email: <a href="mailto:astrogroupnzpropertymaintenance@outlook.co.nz">astrogroupnzpropertymaintenance@outlook.co.nz</a></p>
+            <p>Phone: <a href="tel:+64240922835">+64 240 922 835</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 ASTRO GROUP NZ. All rights reserved.</p>
+    </footer>
+</body>
+</html>
